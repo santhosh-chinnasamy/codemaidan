@@ -1,0 +1,130 @@
+*
+{
+  margin: 0;
+}
+html,body
+{
+  height:100%;
+}
+body {
+  background-color: #d6985f;
+}
+
+#outr {
+  width: 48%;
+  height: 90%;
+  float: left;
+  border: 2px solid #F0F8FF;
+  border-radius: 4px;
+}
+
+#editor {
+  width: 48%%;
+  height: 92.9%;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+iframe {
+  border: 2px solid #00BFFF;
+  width: 48%;
+  height: 90%;
+  float: right;
+  background: white;
+}
+
+input[type=button] {
+  padding:  ;
+  border-radius: 4px;
+  background-color:black;
+  border: none;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+}
+
+button[type=button] {
+  padding: 15px 30px;
+  border-radius: 4px;
+  background-color: #00FFFF;
+  border: none;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+}
+
+h11 {
+  color: #FF00FF;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#iner {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  background: #FAEBD7;
+}
+
+#dwn {
+  background: none;
+  height: 35px;
+  padding: 10px 15px;
+}
+
+.fa-download {
+  font-size: 20px;
+}
+
+select {
+  height: 30px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+label {
+  color: rebeccapurple;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*.wrapper
+{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -142px;
+}
+
+.footer, .push
+{
+  border: solid;
+
+  height: 142px;
+}*/
+
+#domain
+{
+  background-color: #323543;
+  position: relative;
+  max-height: 500px;
+  margin-bottom:60px;
+  margin-top: 600px;
+  color: white;
+
+}
+
+
+
+@media (max-width:575px)
+{
+  iframe {
+    position: absolute;
+    border: 2px solid #00BFFF;
+    width: 48%;
+    height: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+}
